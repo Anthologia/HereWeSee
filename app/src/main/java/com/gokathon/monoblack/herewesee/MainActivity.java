@@ -60,15 +60,15 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
         soundpool=new SoundPool(4,AudioManager.STREAM_MUSIC,0);
-        C=soundpool.load(this,R.raw.c,1);
-        Cs=soundpool.load(this,R.raw.cs,1);
+        C=soundpool.load(this,R.raw.cs,1);
+        Cs=soundpool.load(this,R.raw.c,1);
         D=soundpool.load(this,R.raw.d,1);
         Ds=soundpool.load(this,R.raw.ds,1);
         E=soundpool.load(this,R.raw.e,1);
-        F=soundpool.load(this,R.raw.f,1);
-        Fs=soundpool.load(this,R.raw.fs,1);
-        G=soundpool.load(this,R.raw.g,1);
-        Gs=soundpool.load(this,R.raw.gs,1);
+        F=soundpool.load(this,R.raw.fs,1);
+        Fs=soundpool.load(this,R.raw.f,1);
+        G=soundpool.load(this,R.raw.gs,1);
+        Gs=soundpool.load(this,R.raw.g,1);
         A=soundpool.load(this,R.raw.a,1);
         As=soundpool.load(this,R.raw.as,1);
         B=soundpool.load(this,R.raw.b,1);
