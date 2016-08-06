@@ -1,12 +1,222 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#0E2430"
+    tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:padding="10dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/acoustic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acoustic"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/acoustic"
+            android:text="Palettes"
+            android:textSize="40sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+
+    //색 전체를 담을 곳
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</LinearLayout>
+        android:layout_below="@id/title"
+        android:orientation="vertical">
+
+        //색 각각 담아보자 1.
+        <LinearLayout
+            android:id="@+id/first"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:background="#0E2430">
+
+            <TextView
+                android:id="@+id/first_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:text="@string/Null"
+                android:textColor="#ffffff"
+                android:layout_gravity="start"
+                />
+
+            <TextView
+                android:id="@+id/first_hex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Null"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/first_rgb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@string/Null"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+        //색 각각 담아보자 2.
+        <LinearLayout
+            android:id="@+id/second"
+            android:layout_below="@id/first"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:background="#0E2430">
+
+            <TextView
+                android:id="@+id/second_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:text="@string/Null"
+                android:textColor="#ffffff"
+                android:layout_gravity="start"
+                />
+
+            <TextView
+                android:id="@+id/second_hex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Null"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/second_rgb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@string/Null"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+        //색 각각 담아보자 3.
+        <LinearLayout
+            android:id="@+id/third"
+            android:layout_below="@id/second"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:background="#0E2430">
+
+            <TextView
+                android:id="@+id/third_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:text="@string/Null"
+                android:textColor="#ffffff"
+                android:layout_gravity="start"
+                />
+
+            <TextView
+                android:id="@+id/third_hex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Null"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/third_rgb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@string/Null"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+        //색 각각 담아보자 4.
+        <LinearLayout
+            android:id="@+id/fourth"
+            android:layout_below="@id/third"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:background="#0E2430">
+
+            <TextView
+                android:id="@+id/fourth_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:text="@string/Null"
+                android:textColor="#ffffff"
+                android:layout_gravity="start"
+                />
+
+            <TextView
+                android:id="@+id/fourth_hex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Null"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/fourth_rgb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@string/Null"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>//4번째 색
+
+    </LinearLayout>팔레트
+
+</RelativeLayout>

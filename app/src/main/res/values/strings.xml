@@ -1,3 +1,48 @@
 <resources>
     <string name="app_name">HereWeSee</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="Null"> </string>
+
+    <string name="name0">A</string>
+    <string name="name1">A#</string>
+    <string name="name2">B</string>
+    <string name="name3">C</string>
+    <string name="name4">C#</string>
+    <string name="name5">D</string>
+    <string name="name6">D#</string>
+    <string name="name7">E</string>
+    <string name="name8">F</string>
+    <string name="name9">F#</string>
+    <string name="name10">G</string>
+    <string name="name11">G#</string>
+
+    <string name="hex0">#ff7700</string>
+    <string name="hex1">#ffef00</string>
+    <string name="hex2">#a9ff00</string>
+    <string name="hex3">#3aff00</string>
+    <string name="hex4">#00ffea</string>
+    <string name="hex5">#0092ff</string>
+    <string name="hex6">#1100ff</string>
+    <string name="hex7">#7800e9</string>
+    <string name="hex8">#7b0091</string>
+    <string name="hex9">#ba0000</string>
+    <string name="hex10">#ff0000</string>
+    <string name="hex11">#ff0000</string>
+
+    <string name="rgb0">255,119,0</string>
+    <string name="rgb1">255,239,0</string>
+    <string name="rgb2">169,255,0</string>
+    <string name="rgb3">58,255,0</string>
+    <string name="rgb4">0,255,234</string>
+    <string name="rgb5">0,146,255</string>
+    <string name="rgb6">17,0,255</string>
+    <string name="rgb7">120,0,233</string>
+    <string name="rgb8">123,0,145</string>
+    <string name="rgb9">186,0,0</string>
+    <string name="rgb10">255,0,0</string>
+    <string name="rgb11">255,0,0</string>
+
 </resources>

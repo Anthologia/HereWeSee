@@ -1,0 +1,1316 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    //C
+    <item
+        android:id="@+id/C"
+        android:orderInCategory="100"
+        android:title="C"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Cm"
+        android:orderInCategory="100"
+        android:title="Cm"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Cdim"
+        android:orderInCategory="100"
+        android:title="Cdim"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Caug"
+        android:orderInCategory="100"
+        android:title="Caug"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Csus4"
+        android:orderInCategory="100"
+        android:title="Csus4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Csus2"
+        android:orderInCategory="100"
+        android:title="Csus2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Cmaj7"
+        android:orderInCategory="100"
+        android:title="Cmaj7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Cmi_maj7"
+        android:orderInCategory="100"
+        android:title="Cmi(maj7)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Cm7"
+        android:orderInCategory="100"
+        android:title="Cm7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Cm7_b5"
+        android:orderInCategory="100"
+        android:title="Cm7(b5)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Cdim7"
+        android:orderInCategory="100"
+        android:title="Cdim7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Cmaj7_s5"
+        android:orderInCategory="100"
+        android:title="Cmaj7(#5)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Caug7"
+        android:orderInCategory="100"
+        android:title="Caug7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/C7sus4"
+        android:orderInCategory="100"
+        android:title="C7sus4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/C7sus2"
+        android:orderInCategory="100"
+        android:title="C7sus2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/C7"
+        android:orderInCategory="100"
+        android:title="C7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/C6"
+        android:orderInCategory="100"
+        android:title="C6"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Cm6"
+        android:orderInCategory="100"
+        android:title="Cm6"
+        app:showAsAction="never"/>
+
+    //C#
+    <item
+        android:id="@+id/Cs"
+        android:orderInCategory="100"
+        android:title="C#"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Csm"
+        android:orderInCategory="100"
+        android:title="C#m"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Csdim"
+        android:orderInCategory="100"
+        android:title="C#dim"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Csaug"
+        android:orderInCategory="100"
+        android:title="C#aug"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Cssus4"
+        android:orderInCategory="100"
+        android:title="C#sus4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Cssus2"
+        android:orderInCategory="100"
+        android:title="C#sus2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Csmaj7"
+        android:orderInCategory="100"
+        android:title="C#maj7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Csmi_maj7"
+        android:orderInCategory="100"
+        android:title="C#mi(maj7)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Csm7"
+        android:orderInCategory="100"
+        android:title="C#m7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Csm7_b5"
+        android:orderInCategory="100"
+        android:title="C#m7(b5)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Csdim7"
+        android:orderInCategory="100"
+        android:title="C#dim7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Csmaj7_s5"
+        android:orderInCategory="100"
+        android:title="C#maj7(#5)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Csaug7"
+        android:orderInCategory="100"
+        android:title="C#aug7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Cs7sus4"
+        android:orderInCategory="100"
+        android:title="C#7sus4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Cs7sus2"
+        android:orderInCategory="100"
+        android:title="C#7sus2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Cs7"
+        android:orderInCategory="100"
+        android:title="C#7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Cs6"
+        android:orderInCategory="100"
+        android:title="C#6"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Csm6"
+        android:orderInCategory="100"
+        android:title="C#m6"
+        app:showAsAction="never"/>
+
+    //D
+    <item
+        android:id="@+id/D"
+        android:orderInCategory="100"
+        android:title="D"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Dm"
+        android:orderInCategory="100"
+        android:title="Dm"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Ddim"
+        android:orderInCategory="100"
+        android:title="Ddim"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Daug"
+        android:orderInCategory="100"
+        android:title="Daug"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Dsus4"
+        android:orderInCategory="100"
+        android:title="Dsus4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Dsus2"
+        android:orderInCategory="100"
+        android:title="Dsus2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Dmaj7"
+        android:orderInCategory="100"
+        android:title="Dmaj7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Dmi_maj7"
+        android:orderInCategory="100"
+        android:title="Dmi(maj7)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Dm7"
+        android:orderInCategory="100"
+        android:title="Dm7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Dm7_b5"
+        android:orderInCategory="100"
+        android:title="Dm7(b5)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Ddim7"
+        android:orderInCategory="100"
+        android:title="Ddim7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Dmaj7_s5"
+        android:orderInCategory="100"
+        android:title="Dmaj7(#5)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Daug7"
+        android:orderInCategory="100"
+        android:title="Daug7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/D7sus4"
+        android:orderInCategory="100"
+        android:title="D7sus4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/D7sus2"
+        android:orderInCategory="100"
+        android:title="D7sus2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/D7"
+        android:orderInCategory="100"
+        android:title="D7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/D6"
+        android:orderInCategory="100"
+        android:title="D6"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Dm6"
+        android:orderInCategory="100"
+        android:title="Dm6"
+        app:showAsAction="never"/>
+
+    //D#
+    <item
+        android:id="@+id/Ds"
+        android:orderInCategory="100"
+        android:title="D#"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Dsm"
+        android:orderInCategory="100"
+        android:title="D#m"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Dsdim"
+        android:orderInCategory="100"
+        android:title="D#dim"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Dsaug"
+        android:orderInCategory="100"
+        android:title="D#aug"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Dssus4"
+        android:orderInCategory="100"
+        android:title="D#sus4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Dssus2"
+        android:orderInCategory="100"
+        android:title="D#sus2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Dsmaj7"
+        android:orderInCategory="100"
+        android:title="D#maj7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Dsmi_maj7"
+        android:orderInCategory="100"
+        android:title="D#mi(maj7)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Dsm7"
+        android:orderInCategory="100"
+        android:title="D#m7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Dsm7_b5"
+        android:orderInCategory="100"
+        android:title="D#m7(b5)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Dsdim7"
+        android:orderInCategory="100"
+        android:title="D#dim7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Dsmaj7_s5"
+        android:orderInCategory="100"
+        android:title="D#maj7(#5)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Dsaug7"
+        android:orderInCategory="100"
+        android:title="D#aug7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Ds7sus4"
+        android:orderInCategory="100"
+        android:title="D#7sus4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Ds7sus2"
+        android:orderInCategory="100"
+        android:title="D#7sus2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Ds7"
+        android:orderInCategory="100"
+        android:title="D#7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Ds6"
+        android:orderInCategory="100"
+        android:title="D#6"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Dsm6"
+        android:orderInCategory="100"
+        android:title="D#m6"
+        app:showAsAction="never"/>
+
+    //E
+    <item
+        android:id="@+id/E"
+        android:orderInCategory="100"
+        android:title="E"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Em"
+        android:orderInCategory="100"
+        android:title="Em"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Edim"
+        android:orderInCategory="100"
+        android:title="Edim"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Eaug"
+        android:orderInCategory="100"
+        android:title="Eaug"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Esus4"
+        android:orderInCategory="100"
+        android:title="Esus4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Esus2"
+        android:orderInCategory="100"
+        android:title="Esus2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Emaj7"
+        android:orderInCategory="100"
+        android:title="Emaj7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Emi_maj7"
+        android:orderInCategory="100"
+        android:title="Emi(maj7)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Em7"
+        android:orderInCategory="100"
+        android:title="Em7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Em7_b5"
+        android:orderInCategory="100"
+        android:title="Em7(b5)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Edim7"
+        android:orderInCategory="100"
+        android:title="Edim7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Emaj7_s5"
+        android:orderInCategory="100"
+        android:title="Emaj7(#5)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Eaug7"
+        android:orderInCategory="100"
+        android:title="Eaug7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/E7sus4"
+        android:orderInCategory="100"
+        android:title="E7sus4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/E7sus2"
+        android:orderInCategory="100"
+        android:title="E7sus2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/E7"
+        android:orderInCategory="100"
+        android:title="E7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/E6"
+        android:orderInCategory="100"
+        android:title="E6"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Em6"
+        android:orderInCategory="100"
+        android:title="Em6"
+        app:showAsAction="never"/>
+
+    //F
+    <item
+        android:id="@+id/F"
+        android:orderInCategory="100"
+        android:title="F"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fm"
+        android:orderInCategory="100"
+        android:title="Fm"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fdim"
+        android:orderInCategory="100"
+        android:title="Fdim"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Faug"
+        android:orderInCategory="100"
+        android:title="Faug"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fsus4"
+        android:orderInCategory="100"
+        android:title="Fsus4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fsus2"
+        android:orderInCategory="100"
+        android:title="Fsus2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fmaj7"
+        android:orderInCategory="100"
+        android:title="Fmaj7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fmi_maj7"
+        android:orderInCategory="100"
+        android:title="Fmi(maj7)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fm7"
+        android:orderInCategory="100"
+        android:title="Fm7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fm7_b5"
+        android:orderInCategory="100"
+        android:title="Fm7(b5)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fdim7"
+        android:orderInCategory="100"
+        android:title="Fdim7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fmaj7_s5"
+        android:orderInCategory="100"
+        android:title="Fmaj7(#5)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Faug7"
+        android:orderInCategory="100"
+        android:title="Faug7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/F7sus4"
+        android:orderInCategory="100"
+        android:title="F7sus4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/F7sus2"
+        android:orderInCategory="100"
+        android:title="F7sus2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/F7"
+        android:orderInCategory="100"
+        android:title="F7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/F6"
+        android:orderInCategory="100"
+        android:title="F6"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fm6"
+        android:orderInCategory="100"
+        android:title="Fm6"
+        app:showAsAction="never"/>
+
+    //F#
+    <item
+        android:id="@+id/Fs"
+        android:orderInCategory="100"
+        android:title="F#"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fsm"
+        android:orderInCategory="100"
+        android:title="F#m"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fsdim"
+        android:orderInCategory="100"
+        android:title="F#dim"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fsaug"
+        android:orderInCategory="100"
+        android:title="F#aug"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fssus4"
+        android:orderInCategory="100"
+        android:title="F#sus4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fssus2"
+        android:orderInCategory="100"
+        android:title="F#sus2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fsmaj7"
+        android:orderInCategory="100"
+        android:title="F#maj7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fsmi_maj7"
+        android:orderInCategory="100"
+        android:title="F#mi(maj7)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fsm7"
+        android:orderInCategory="100"
+        android:title="F#m7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fsm7_b5"
+        android:orderInCategory="100"
+        android:title="F#m7(b5)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fsdim7"
+        android:orderInCategory="100"
+        android:title="F#dim7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fsmaj7_s5"
+        android:orderInCategory="100"
+        android:title="F#maj7(#5)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fsaug7"
+        android:orderInCategory="100"
+        android:title="F#aug7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fs7sus4"
+        android:orderInCategory="100"
+        android:title="F#7sus4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fs7sus2"
+        android:orderInCategory="100"
+        android:title="F#7sus2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fs7"
+        android:orderInCategory="100"
+        android:title="F#7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fs6"
+        android:orderInCategory="100"
+        android:title="F#6"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Fsm6"
+        android:orderInCategory="100"
+        android:title="F#m6"
+        app:showAsAction="never"/>
+
+    //G
+    <item
+        android:id="@+id/G"
+        android:orderInCategory="100"
+        android:title="G"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gm"
+        android:orderInCategory="100"
+        android:title="Gm"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gdim"
+        android:orderInCategory="100"
+        android:title="Gdim"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gaug"
+        android:orderInCategory="100"
+        android:title="Gaug"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gsus4"
+        android:orderInCategory="100"
+        android:title="Gsus4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gsus2"
+        android:orderInCategory="100"
+        android:title="Gsus2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gmaj7"
+        android:orderInCategory="100"
+        android:title="Gmaj7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gmi_maj7"
+        android:orderInCategory="100"
+        android:title="Gmi(maj7)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gm7"
+        android:orderInCategory="100"
+        android:title="Gm7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gm7_b5"
+        android:orderInCategory="100"
+        android:title="Gm7(b5)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gdim7"
+        android:orderInCategory="100"
+        android:title="Gdim7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gmaj7_s5"
+        android:orderInCategory="100"
+        android:title="Gmaj7(#5)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gaug7"
+        android:orderInCategory="100"
+        android:title="Gaug7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/G7sus4"
+        android:orderInCategory="100"
+        android:title="G7sus4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/G7sus2"
+        android:orderInCategory="100"
+        android:title="G7sus2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/G7"
+        android:orderInCategory="100"
+        android:title="G7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/G6"
+        android:orderInCategory="100"
+        android:title="G6"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gm6"
+        android:orderInCategory="100"
+        android:title="Gm6"
+        app:showAsAction="never"/>
+
+    //G#
+    <item
+        android:id="@+id/Gs"
+        android:orderInCategory="100"
+        android:title="G#"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gsm"
+        android:orderInCategory="100"
+        android:title="G#m"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gsdim"
+        android:orderInCategory="100"
+        android:title="G#dim"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gsaug"
+        android:orderInCategory="100"
+        android:title="G#aug"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gssus4"
+        android:orderInCategory="100"
+        android:title="G#sus4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gssus2"
+        android:orderInCategory="100"
+        android:title="G#sus2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gsmaj7"
+        android:orderInCategory="100"
+        android:title="G#maj7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gsmi_maj7"
+        android:orderInCategory="100"
+        android:title="G#mi(maj7)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gsm7"
+        android:orderInCategory="100"
+        android:title="G#m7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gsm7_b5"
+        android:orderInCategory="100"
+        android:title="G#m7(b5)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gsdim7"
+        android:orderInCategory="100"
+        android:title="G#dim7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gsmaj7_s5"
+        android:orderInCategory="100"
+        android:title="G#maj7(#5)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gsaug7"
+        android:orderInCategory="100"
+        android:title="G#aug7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gs7sus4"
+        android:orderInCategory="100"
+        android:title="G#7sus4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gs7sus2"
+        android:orderInCategory="100"
+        android:title="G#7sus2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gs7"
+        android:orderInCategory="100"
+        android:title="G#7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gs6"
+        android:orderInCategory="100"
+        android:title="G#6"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Gsm6"
+        android:orderInCategory="100"
+        android:title="G#m6"
+        app:showAsAction="never"/>
+
+    //A
+    <item
+        android:id="@+id/A"
+        android:orderInCategory="100"
+        android:title="A"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Am"
+        android:orderInCategory="100"
+        android:title="Am"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Adim"
+        android:orderInCategory="100"
+        android:title="Adim"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Aaug"
+        android:orderInCategory="100"
+        android:title="Aaug"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Asus4"
+        android:orderInCategory="100"
+        android:title="Asus4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Asus2"
+        android:orderInCategory="100"
+        android:title="Asus2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Amaj7"
+        android:orderInCategory="100"
+        android:title="Amaj7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Ami_maj7"
+        android:orderInCategory="100"
+        android:title="Ami(maj7)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Am7"
+        android:orderInCategory="100"
+        android:title="Am7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Am7_b5"
+        android:orderInCategory="100"
+        android:title="Am7(b5)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Adim7"
+        android:orderInCategory="100"
+        android:title="Adim7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Amaj7_s5"
+        android:orderInCategory="100"
+        android:title="Amaj7(#5)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Aaug7"
+        android:orderInCategory="100"
+        android:title="Aaug7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/A7sus4"
+        android:orderInCategory="100"
+        android:title="A7sus4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/A7sus2"
+        android:orderInCategory="100"
+        android:title="A7sus2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/A7"
+        android:orderInCategory="100"
+        android:title="A7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/A6"
+        android:orderInCategory="100"
+        android:title="A6"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Am6"
+        android:orderInCategory="100"
+        android:title="Am6"
+        app:showAsAction="never"/>
+
+    //A#
+    <item
+        android:id="@+id/As"
+        android:orderInCategory="100"
+        android:title="A#"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Asm"
+        android:orderInCategory="100"
+        android:title="A#m"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Asdim"
+        android:orderInCategory="100"
+        android:title="A#dim"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Asaug"
+        android:orderInCategory="100"
+        android:title="A#aug"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Assus4"
+        android:orderInCategory="100"
+        android:title="A#sus4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Assus2"
+        android:orderInCategory="100"
+        android:title="A#sus2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Asmaj7"
+        android:orderInCategory="100"
+        android:title="A#maj7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Asmi_maj7"
+        android:orderInCategory="100"
+        android:title="A#mi(maj7)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Asm7"
+        android:orderInCategory="100"
+        android:title="A#m7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Asm7_b5"
+        android:orderInCategory="100"
+        android:title="A#m7(b5)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Asdim7"
+        android:orderInCategory="100"
+        android:title="A#dim7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Asmaj7_s5"
+        android:orderInCategory="100"
+        android:title="A#maj7(#5)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Asaug7"
+        android:orderInCategory="100"
+        android:title="A#aug7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/As7sus4"
+        android:orderInCategory="100"
+        android:title="A#7sus4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/As7sus2"
+        android:orderInCategory="100"
+        android:title="A#7sus2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/As7"
+        android:orderInCategory="100"
+        android:title="A#7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/As6"
+        android:orderInCategory="100"
+        android:title="A#6"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Asm6"
+        android:orderInCategory="100"
+        android:title="A#m6"
+        app:showAsAction="never"/>
+
+    //B
+    <item
+        android:id="@+id/B"
+        android:orderInCategory="100"
+        android:title="B"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Bm"
+        android:orderInCategory="100"
+        android:title="Bm"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Bdim"
+        android:orderInCategory="100"
+        android:title="Bdim"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Baug"
+        android:orderInCategory="100"
+        android:title="Baug"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Bsus4"
+        android:orderInCategory="100"
+        android:title="Bsus4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Bsus2"
+        android:orderInCategory="100"
+        android:title="Bsus2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Bmaj7"
+        android:orderInCategory="100"
+        android:title="Bmaj7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Bmi_maj7"
+        android:orderInCategory="100"
+        android:title="Bmi(maj7)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Bm7"
+        android:orderInCategory="100"
+        android:title="Bm7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Bm7_b5"
+        android:orderInCategory="100"
+        android:title="Bm7(b5)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Bdim7"
+        android:orderInCategory="100"
+        android:title="Bdim7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Bmaj7_s5"
+        android:orderInCategory="100"
+        android:title="Bmaj7(#5)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Baug7"
+        android:orderInCategory="100"
+        android:title="Baug7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/B7sus4"
+        android:orderInCategory="100"
+        android:title="B7sus4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/B7sus2"
+        android:orderInCategory="100"
+        android:title="B7sus2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/B7"
+        android:orderInCategory="100"
+        android:title="B7"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/B6"
+        android:orderInCategory="100"
+        android:title="B6"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Bm6"
+        android:orderInCategory="100"
+        android:title="Bm6"
+        app:showAsAction="never"/>
+
+
+</menu>
